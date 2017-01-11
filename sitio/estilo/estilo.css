@@ -1,0 +1,191 @@
+*{margin:0; padding:0;}
+
+html{
+height: 100%
+}
+
+.cuerpo{
+    width: 80%;
+    background-image: url(../img/fondo4%20copy.jpg);
+    background-size:cover;
+    margin: 0 auto ;
+    color: #fff;
+   
+
+}
+
+.cabeza{
+    background: #b99528;
+    width: 100%;
+    margin: 0%;
+    
+    
+   
+}
+.logo{
+    text-align: left;
+    width: 30%;
+    margin: 0px;
+    padding: 30px;
+}
+.containergeneral{
+    background: rgba(181,124,74,0.5);
+    width: 100%;
+}
+.contmenu{
+    width: 100%
+}
+
+.menu{
+    color: #fff;
+    width: 100%;
+   
+}
+ /*aqui va el menu*/
+.boton{
+    list-style: none;
+    text-decoration:none; 
+    float: left;
+    background: #000;
+    color: #fff;
+    width: 33%;
+    margin: 1px0px;
+    text-align: center;
+    
+ 
+   
+}
+
+.boton1{
+    list-style: none;
+    text-decoration:none; 
+    float: left;
+    background: #000;
+    color: #fff;
+    width: 34%;
+    margin: 0px1px;
+    text-align: center;
+   
+    
+   
+}
+.boton2{
+    list-style: none;
+    text-decoration:none; 
+    float: left;
+    background: #000;
+    color: #fff;
+    margin: 1px0px;
+    text-align: center;
+    width: 33%;
+   
+   
+}
+
+.boton a{
+   color: #fff;
+   
+   text-decoration:none; 
+ 
+}
+.boton1 a{
+   color: #fff;
+  
+   text-decoration:none; 
+ 
+}
+.boton2 a{
+   color: #fff;
+  
+   text-decoration:none; 
+ 
+}
+
+.caja{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin: auto;
+    padding: 2%;
+    
+   
+}
+.boton0{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    float: left;
+    background: rgba(181,124,74,0.5);
+    padding: 2%;
+}
+
+.{
+   
+}
+/*imagen*/
+.primera{
+    margin: 10px;
+    width: 60%;
+    text-align: center;
+}
+ /*tamaños de fuente*/
+.p1{
+    font-size: 2.5em;
+    margin: 500PX10px;
+    color: #fff;
+    text-align: center;
+}
+.p2{
+    font-size:1.5em; 
+    margin:10px;
+    color: #fff;
+}
+.p3{
+    font-size: 1.1em;
+    margin: 30px;
+    color: #fff;
+}
+
+tercera{
+    margin: 0 auto;
+}
+
+footer{
+    background: rgba(181,124,74,0.5);
+    width: 100%;
+    float: left;
+}
+
+@media only screen and (max-width:600px){
+    .logo{width: 100%;}
+  .caja2{
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+    .logo{width: 80%;}
+        #sidebar{
+        display:none;
+        }
+
+    .contmenu{
+       text-align:center;
+       width: 100%; 
+        color: #fff;
+       }
+    .caja2
+}
+@media only screen and (max-width: 240px) {
+    .logo{width: 50%;}
+        #sidebar{
+        display:none;
+        }
+
+    #contmenu{
+       text-align:center;
+       width: 100%; 
+        color: #fff;
+       }
+}
